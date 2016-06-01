@@ -31,8 +31,8 @@
 	],
 	"settings":
 	{
-		"tab_size": 8,
-		"translate_tabs_to_spaces": false,
+		"tab_size": 2,
+		"translate_tabs_to_spaces": true,
 		"highlight_line": true,
 		"AStyleFormatter":
 		{
@@ -61,7 +61,7 @@
 			"name": "PX4: make and upload",
 			"working_dir": "${project_path}",
 			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
-			"cmd": ["make upload px4fmu-v2_default -j8"],
+			"cmd": ["make px4fmu-v2_default upload"],
 			"shell": true
 		},
 		{

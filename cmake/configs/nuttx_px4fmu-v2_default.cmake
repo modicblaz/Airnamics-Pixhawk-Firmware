@@ -166,6 +166,9 @@ set(config_module_list
 
 	# Hardware test
 	#examples/hwtest
+
+	# Airnamics apps
+	examples/airnamics_test
 )
 
 set(config_extra_builtin_cmds
