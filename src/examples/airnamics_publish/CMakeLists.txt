@@ -31,11 +31,11 @@
 #
 ############################################################################
 px4_add_module(
-	MODULE examples__airnamics_test
-	MAIN airnamics_test
+	MODULE examples__airnamics_publish
+	MAIN airnamics_publish
 	STACK_MAIN 2000
 	SRCS
-		airnamics_test.c
+		airnamics_publish.c
 	DEPENDS
 		platforms__common
 	)
