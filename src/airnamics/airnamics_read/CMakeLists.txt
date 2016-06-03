@@ -31,7 +31,7 @@
 #
 ############################################################################
 px4_add_module(
-	MODULE examples__airnamics_read
+	MODULE airnamics__airnamics_read
 	MAIN airnamics_read
 	STACK_MAIN 2000
 	SRCS

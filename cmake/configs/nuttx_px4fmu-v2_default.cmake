@@ -168,8 +168,8 @@ set(config_module_list
 	#examples/hwtest
 
 	# Airnamics apps
-	examples/airnamics_publish
-	examples/airnamics_read
+	airnamics/airnamics_publish
+	airnamics/airnamics_read
 )
 
 set(config_extra_builtin_cmds

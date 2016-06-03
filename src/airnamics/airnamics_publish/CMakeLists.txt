@@ -31,7 +31,7 @@
 #
 ############################################################################
 px4_add_module(
-	MODULE examples__airnamics_publish
+	MODULE airnamics__airnamics_publish
 	MAIN airnamics_publish
 	STACK_MAIN 2000
 	SRCS
